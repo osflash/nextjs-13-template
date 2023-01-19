@@ -1,7 +1,7 @@
-import "../styles/globals.css";
+import '../styles/globals.css'
 
 interface RottLayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const RootLayout: React.FC<RottLayoutProps> = ({ children }) => {
@@ -10,7 +10,7 @@ const RootLayout: React.FC<RottLayoutProps> = ({ children }) => {
       <head />
       <body>{children}</body>
     </html>
-  );
-};
+  )
+}
 
-export default RootLayout;
+export default RootLayout

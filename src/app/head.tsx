@@ -6,7 +6,7 @@ const Head = () => {
       <meta name="description" content="#boraCodar" />
       <link rel="icon" href="/favicon.ico" />
     </>
-  );
-};
+  )
+}
 
-export default Head;
+export default Head
