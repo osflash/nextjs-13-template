@@ -1,10 +1,10 @@
 import '../styles/globals.css'
 
-interface RottLayoutProps {
+interface RootLayoutProps {
   children: React.ReactNode
 }
 
-const RootLayout: React.FC<RottLayoutProps> = ({ children }) => {
+const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
   return (
     <html lang="pt-br">
       <head />
