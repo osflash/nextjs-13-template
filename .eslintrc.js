@@ -8,9 +8,16 @@ const eslintConfig = {
       {
         newlinesBetween: 'always',
         groups: [
+          '/^~/styles/',
           '/^react/',
           '/^next/',
           'module',
+          '/^~/types/',
+          '/^~/utils/',
+          '/^~/libs/',
+          '/^~/services/',
+          '/^~/hooks/',
+          '/^~/components/',
           '/^~/',
           ['parent', 'sibling', 'index']
         ],
