@@ -21,6 +21,7 @@
     "prettier-plugin-tailwindcss": "^0.2.2",
     "react": "latest",
     "react-dom": "latest",
+    "sass": "^1.57.1",
     "typescript": "^4.9.4",
     "zod": "^3.20.2"
   },
